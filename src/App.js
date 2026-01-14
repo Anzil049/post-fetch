@@ -1,10 +1,11 @@
 import "./App.css";
-import PostList from "./components/PostList";
+import ToggleUsers from "./components/ToggleUsers";
 
 function App() {
   return (
     <div className="app">
-      <PostList />
+      <h2>Toggle Users (API + Cleanup)</h2>
+      <ToggleUsers />
     </div>
   );
 }
